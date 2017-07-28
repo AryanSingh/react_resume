@@ -1,0 +1,15 @@
+.resume_parent {
+  width: 80%;
+  margin: auto; }
+  .resume_parent .resume_header {
+    margin-top: 40px; }
+    .resume_parent .resume_header h4 {
+      margin: 5px 0; }
+    .resume_parent .resume_header p {
+      margin: 5px 0; }
+  .resume_parent .resume_content .work_experience .work_experience_header {
+    background: #BFBFBF;
+    margin: 15px 0;
+    padding: 5px; }
+    .resume_parent .resume_content .work_experience .work_experience_header h4 {
+      margin: 0; }
