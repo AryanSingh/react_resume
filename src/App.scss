@@ -15,6 +15,12 @@
 
   .resume_content{
     .work_experience{
+
+      i{
+        font-size: 9px;
+        color:  #737373;
+        margin-right:10px;
+      }
       .work_experience_header{
         background: #BFBFBF;
         margin: 15px 0;
@@ -24,8 +30,207 @@
         }
       }
       .experience1{
+        .experience1_header{
+
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .experience1_header_h{
+            display: flex;
+            align-items: center;
+            a{
+              margin-top:4px;
+            }
+            i{
+              font-size: 16px;
+              margin-top:4px;
+              margin-left: 4px;
+            }
+          }
+          h4{
+            margin: 10px 0;
+          }
+          p{
+            margin: 0;
+          }
+        }
+        .experience1_content {
+          p{
+            margin: 0 0;
+          }
+          .experience1_content_p{
+            margin: 4px 0;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+      .experience2{
+        .experience2_header{
+
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .experience2_header_h{
+            display: flex;
+            align-items: center;
+            a{
+              margin-top:4px;
+            }
+            i{
+              font-size: 16px;
+              margin-top:4px;
+              margin-left: 4px;
+            }
+
+          }
+
+          h4{
+            margin: 12px 0;
+          }
+          p{
+            margin: 0;
+          }
+        }
+        .experience2_content {
+          p{
+            margin: 0 0;
+          }
+          .experience2_content_p{
+            margin: 4px 0;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+
+    .education {
+      .education_header{
+        background: #BFBFBF;
+        margin: 15px 0;
+        padding: 5px;
+        h4 {
+          margin: 0;
+        }
+      }
+      .education_content{
+
+        p{
+          margin: 0;
+        }
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .web_development_projects {
+      .web_development_projects_header {
+        background: #BFBFBF;
+        margin: 15px 0;
+        padding: 5px;
+        h4 {
+          margin: 0;
+        }
+      }
+      .web_development_projects_content {
+
+        h4{
+          margin: 12px 0;
+        }
+
+        p{
+          margin: 0 0;
+        }
+
+        i{
+          font-size: 9px;
+          color:  #737373;
+          margin-right:10px;
+        }
+
+        .project1{
+
+          .project1_header{
+            display: flex;
+            align-items: center;
+
+          }
+          .project1_content{
+            display: flex;
+            align-items: center;
+            margin: 4px 0;
+          }
+        }
+
+        .project2{
+
+          .project2_header{
+            display: flex;
+            align-items: center;
+
+          }
+          .project2_content{
+            margin: 4px 0;
+            display: flex;
+            align-items: center;
+          }
+
+        }
+
+        .project3{
+
+          .project3_header{
+            display: flex;
+            align-items: center;
+
+          }
+          .project3_content{
+            margin: 4px 0;
+            display: flex;
+            align-items: center;
+          }
+
+        }
 
       }
+    }
+
+    .relevant_skills {
+
+      .relevant_skills_header{
+
+        background: #BFBFBF;
+        margin: 15px 0;
+        padding: 5px;
+        h4 {
+          margin: 0;
+        }
+
+      }
+      .relevant_skills_content{
+
+        .relevant_skills_row1, .relevant_skills_row2, .relevant_skills_row3{
+          display: flex;
+          align-items: center;
+          margin: 4px 0;
+          p{
+            margin: 0;
+          }
+        }
+
+        i{
+          font-size: 9px;
+          color:  #737373;
+          margin-right:10px;
+        }
+
+      }
+
     }
   }
 
